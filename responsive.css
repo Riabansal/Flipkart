@@ -1,0 +1,32 @@
+ @media screen and (max-width:1000px){
+    body{ 
+       background-color: rgb(245, 222, 222);
+    } 
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+        text-align: center;
+    }
+    .search{
+        justify-content: center;
+        text-align: center
+    }
+    /* .input{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    } */
+    
+}
+@media screen and (min-width:500px) and (max-width:1000px) {
+    .slider{
+        
+        height: 30vh;
+    }
+}
